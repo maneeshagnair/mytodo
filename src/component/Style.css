@@ -1,0 +1,85 @@
+.outer-box{
+    width: 500px;
+    margin: 2% auto;
+}
+.box{
+    background-color: #500e50;
+    color: white;
+    width: 100%;
+    height: 170px;
+}
+.text-end{
+    text-align: end;
+}
+h2,h4{
+    margin: 0;
+    padding: 10px 10px 10px 0;
+
+}
+.text-add{
+    text-align: center;
+    margin: 10px;
+}
+input{
+    padding: 7px;
+    width: 300px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+}
+.btn-addtodo{
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border: none;
+    padding: 5px;
+    margin-left: 20px;
+    border-radius: 7px;
+}
+input[type=text]:focus{
+    outline: none;
+}
+.btn-addtodo:focus{
+    outline: none;
+}
+.todo-list{
+   max-height: 210px;
+   overflow-y: auto;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    width:"50px";
+    background-color: grey;
+    color: black;
+    font-size: 20px;
+    font-weight: 600px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding: 15px 15px 15px 10px;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    width: 50px;
+}
+.line-through{
+    text-decoration: none;
+    color: green;
+}
+.red{
+    color: red;
+}
+.blue{
+    color: dodgerblue;
+}
+.green{
+    color: green;
+}
